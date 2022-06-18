@@ -30,10 +30,10 @@ def start(m, res=False):
 # Получение сообщений от юзера
 @bot.message_handler(content_types=["text"])
 def handle_text(message):
-    # Если юзер прислал 1, выдаем ему случайный факт
+    # Если юзер прислал 1, выдаем ему ник
     if message.text.strip() == 'Ник' :
             answer = random.choice(nickname)
-    # Если юзер прислал 2, выдаем умную мысль
+    # Если юзер прислал 2, выдаем цитату
     elif message.text.strip() == 'Цитата':
             answer = random.choice(quote)
     # Отсылаем юзеру сообщение в его чат
