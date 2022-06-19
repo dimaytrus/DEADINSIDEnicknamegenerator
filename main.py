@@ -3,7 +3,7 @@ import random
 from telebot import types
 
 #Создаем бота
-bot = telebot.TeleBot('5320339089:AAG0qabrmulHBlqpnqe6lUAMdynl8Dj7A0k')
+bot = telebot.TeleBot('Ваш Токен бота')
 
 #Загружаем список никнеймов
 f = open('data/nickname.txt', 'r', encoding='UTF-8')
